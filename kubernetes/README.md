@@ -1,3 +1,61 @@
+# Quiz Application
+
+## Overview
+
+This Quiz Application is a web-based platform that allows users to participate in quizzes and test their knowledge on various topics. The application fetches quiz questions from an external API and presents them to users one at a time. Users can select their answers, track their progress, and view their scores at the end of the quiz.
+
+### Approach
+
+The application is built using React, a popular JavaScript library for building user interfaces. It makes use of various React components to create a dynamic and interactive quiz experience. Here's a brief overview of the components:
+
+- **Quiz**: The main component that manages the quiz logic, including fetching questions, handling user answers, and tracking scores.
+
+- **QuizResult**: A component that displays the user's final score and allows them to retry the quiz.
+
+- **Report**: A component that provides a detailed report of the user's performance, showing which questions were answered correctly and which were not.
+
+- **EmailValidationModal**: A modal component that appears when the user enters an invalid email address for quiz participation.
+
+## Setup and Installation
+
+To run this application locally, follow these steps:
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/quiz-application.git
+
+1. Navigate to the project directory:
+
+    ```bash cd quiz-application
+
+2. Install the required dependencies:
+    ```bash npm install
+
+3. Start the development server:
+    ```bash npm start
+4. Open your web browser and access the application at http://localhost:3000.
+
+# Assumptions
+
+* It is assumed that users have a stable internet connection to fetch quiz questions from the external API.
+
+* The application assumes that users will provide a valid email address for quiz participation. Invalid email addresses trigger a validation modal.
+
+# Challenges Faced
+
+During the development of this application, several challenges were encountered and overcome:
+1. API Integration: Integrating an external API to fetch quiz questions and parse the response data.
+2. State Management: Managing the state of the quiz, including tracking user answers, scores, and timers.
+3. Responsiveness: Ensuring that the application is responsive and works well on various devices and screen sizes.
+4. Modal Implementation: Implementing a modal for email validation and ensuring it behaves correctly.
+5. Browser Compatibility: Testing and ensuring cross-browser compatibility.
+
+# Feedback and Contributions
+
+If you encounter any issues, have suggestions for improvements, or would like to contribute to this project, please feel free to open an issue or create a pull request. Your feedback and contributions are highly appreciated.
+Thank you for using the Quiz Application!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
